@@ -46,6 +46,6 @@ class list2(APIView):
                 'model': l,
 
             }
-        response = json.dumps(data)
-        return JsonResponse(response,safe=False)
+        #response = json.dumps(data)
+        return JsonResponse(data,safe=False)
 
